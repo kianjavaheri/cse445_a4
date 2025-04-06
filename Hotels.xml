@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Hotels>
 	<!-- Hotel 1 -->
-	<Hotel HotelID="1" NearstAirport="Sky Harbor" Rating="4.2">
+	<Hotel HotelID="1" NearestAirport="Sky Harbor" Rating="4.2">
 		<Phone>111-111-1111</Phone>
 		<Name>Hotel 1</Name>
 		<Address>
@@ -20,7 +20,7 @@
 	</Hotel>
 
 	<!-- Hotel 2 -->
-	<Hotel HotelID="2" NearstAirport="Sky Harbor">
+	<Hotel HotelID="2" NearestAirport="Sky Harbor">
 		<Phone>222-222-2222</Phone>
 		<Name>Hotel 2</Name>
 		<Address>
@@ -39,7 +39,7 @@
 	</Hotel>
 
 	<!-- Hotel 3 -->
-	<Hotel HotelID="3" NearstAirport="Sky Harbor" Rating="3.9">
+	<Hotel HotelID="3" NearestAirport="Sky Harbor" Rating="3.9">
 		<Phone>333-333-3333</Phone>
 		<Name>Hotel 3</Name>
 		<Address>
@@ -58,7 +58,7 @@
 	</Hotel>
 
 	<!-- Hotel 4 -->
-	<Hotel HotelID="4" NearstAirport="Sky Harbor">
+	<Hotel HotelID="4" NearestAirport="Sky Harbor">
 		<Phone>444-444-4444</Phone>
 		<Name>Hotel 4</Name>
 		<Address>
@@ -77,7 +77,7 @@
 	</Hotel>
 
 	<!-- Hotel 5 -->
-	<Hotel HotelID="5" NearstAirport="Sky Harbor" Rating="4.1">
+	<Hotel HotelID="5" NearestAirport="Sky Harbor" Rating="4.1">
 		<Phone>555-555-5555</Phone>
 		<Name>Hotel 5</Name>
 		<Address>
@@ -96,7 +96,7 @@
 	</Hotel>
 
 	<!-- Hotel 6 -->
-	<Hotel HotelID="6" NearstAirport="Sky Harbor">
+	<Hotel HotelID="6" NearestAirport="Sky Harbor">
 		<Phone>666-666-6666</Phone>
 		<Name>Hotel 6</Name>
 		<Address>
@@ -115,7 +115,7 @@
 	</Hotel>
 
 	<!-- Hotel 7 -->
-	<Hotel HotelID="7" NearstAirport="Sky Harbor" Rating="4.3">
+	<Hotel HotelID="7" NearestAirport="Sky Harbor" Rating="4.3">
 		<Phone>777-777-7777</Phone>
 		<Name>Hotel 7</Name>
 		<Address>
@@ -134,7 +134,7 @@
 	</Hotel>
 
 	<!-- Hotel 8 -->
-	<Hotel HotelID="8" NearstAirport="Sky Harbor">
+	<Hotel HotelID="8" NearestAirport="Sky Harbor">
 		<Phone>888-888-8888</Phone>
 		<Name>Hotel 8</Name>
 		<Address>
@@ -153,7 +153,7 @@
 	</Hotel>
 
 	<!-- Hotel 9 -->
-	<Hotel HotelID="9" NearstAirport="Sky Harbor" Rating="3.8">
+	<Hotel HotelID="9" NearestAirport="Sky Harbor" Rating="3.8">
 		<Phone>999-999-9999</Phone>
 		<Name>Hotel 9</Name>
 		<Address>
@@ -172,7 +172,7 @@
 	</Hotel>
 
 	<!-- Hotel 10 -->
-	<Hotel HotelID="10" NearstAirport="Sky Harbor" Rating="4.4">
+	<Hotel HotelID="10" NearestAirport="Sky Harbor" Rating="4.4">
 		<Phone>100-000-0000</Phone>
 		<Name>Hotel 10</Name>
 		<Address>

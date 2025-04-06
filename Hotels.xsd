@@ -39,7 +39,7 @@
 							</xs:element>
 						</xs:sequence>
 						<xs:attribute name="HotelID" use="required" type="xs:int"/>
-						<xs:attribute name="NearstAirport" use="required" type="xs:string"/>
+						<xs:attribute name="NearestAirport" use="required" type="xs:string"/>
 						<xs:attribute name="Rating" use="optional" type="xs:decimal"/>
 					</xs:complexType>
 				</xs:element>
