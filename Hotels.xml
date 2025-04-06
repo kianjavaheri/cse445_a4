@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Hotels>
 	<!-- Hotel 1 -->
-	<Hotel Rating="4.2">
-		<Phone>111-111-1111</Phone>
+	<Hotel Rating="4.2" NearstAirport="Sky Harbor">
 		<Name>Hotel 1</Name>
-		<Address NearstAirport="Sky Harbor">
+		<Phone>111-111-1111</Phone>
+		<Address>
 			<Number>11</Number>
 			<Street>1st St</Street>
 			<City>Tempe</City>
@@ -14,10 +14,10 @@
 	</Hotel>
 
 	<!-- Hotel 2 -->
-	<Hotel>
-		<Phone>222-222-2222</Phone>
+	<Hotel NearstAirport="Sky Harbor">
 		<Name>Hotel 2</Name>
-		<Address NearstAirport="Sky Harbor">
+		<Phone>222-222-2222</Phone>
+		<Address>
 			<Number>22</Number>
 			<Street>2nd St</Street>
 			<City>Tempe</City>
@@ -27,10 +27,10 @@
 	</Hotel>
 
 	<!-- Hotel 3 -->
-	<Hotel Rating="3.9">
-		<Phone>333-333-3333</Phone>
+	<Hotel Rating="3.9" NearstAirport="Sky Harbor">
 		<Name>Hotel 3</Name>
-		<Address NearstAirport="Sky Harbor">
+		<Phone>333-333-3333</Phone>
+		<Address>
 			<Number>33</Number>
 			<Street>3rd St</Street>
 			<City>Tempe</City>
@@ -40,10 +40,10 @@
 	</Hotel>
 
 	<!-- Hotel 4 -->
-	<Hotel>
-		<Phone>444-444-4444</Phone>
+	<Hotel NearstAirport="Sky Harbor">
 		<Name>Hotel 4</Name>
-		<Address NearstAirport="Sky Harbor">
+		<Phone>444-444-4444</Phone>
+		<Address>
 			<Number>44</Number>
 			<Street>4th St</Street>
 			<City>Tempe</City>
@@ -53,10 +53,10 @@
 	</Hotel>
 
 	<!-- Hotel 5 -->
-	<Hotel Rating="4.1">
+	<Hotel Rating="4.1" NearstAirport="Sky Harbor">
+		<Name>Hotel 5</Name>
 		<Phone>555-555-5555</Phone>
-		<Name>Hotel 5</Name
-		<Address NearstAirport="Sky Harbor">
+		<Address>
 			<Number>55</Number>
 			<Street>5th St</Street>
 			<City>Tempe</City>
@@ -66,10 +66,10 @@
 	</Hotel>
 
 	<!-- Hotel 6 -->
-	<Hotel>
-		<Phone>666-666-6666</Phone>
+	<Hotel NearstAirport="Sky Harbor">
 		<Name>Hotel 6</Name>
-		<Address NearstAirport="Sky Harbor">
+		<Phone>666-666-6666</Phone>
+		<Address>
 			<Number>66</Number>
 			<Street>6th St</Street>
 			<City>Tempe</City>
@@ -79,10 +79,10 @@
 	</Hotel>
 
 	<!-- Hotel 7 -->
-	<Hotel Rating="4.3">
-		<Phone>777-777-7777</Phone>
+	<Hotel Rating="4.3" NearstAirport="Sky Harbor">
 		<Name>Hotel 7</Name>
-		<Address NearstAirport="Sky Harbor">
+		<Phone>777-777-7777</Phone>
+		<Address>
 			<Number>77</Number>
 			<Street>7th St</Street>
 			<City>Tempe</City>
@@ -92,10 +92,10 @@
 	</Hotel>
 
 	<!-- Hotel 8 -->
-	<Hotel>
-		<Phone>888-888-8888</Phone>
+	<Hotel NearstAirport="Sky Harbor">
 		<Name>Hotel 8</Name>
-		<Address NearstAirport="Sky Harbor">
+		<Phone>888-888-8888</Phone>
+		<Address>
 			<Number>88</Number>
 			<Street>8th St</Street>
 			<City>Tempe</City>
@@ -105,10 +105,10 @@
 	</Hotel>
 
 	<!-- Hotel 9 -->
-	<Hotel Rating="3.8">
-		<Phone>999-999-9999</Phone>
+	<Hotel Rating="3.8" NearstAirport="Sky Harbor">
 		<Name>Hotel 9</Name>
-		<Address NearstAirport="Sky Harbor">
+		<Phone>999-999-9999</Phone>
+		<Address>
 			<Number>99</Number>
 			<Street>9th St</Street>
 			<City>Tempe</City>
@@ -118,10 +118,10 @@
 	</Hotel>
 
 	<!-- Hotel 10 -->
-	<Hotel Rating="4.4">
-		<Phone>100-000-0000</Phone>
+	<Hotel Rating="4.4" NearstAirport="Sky Harbor">
 		<Name>Hotel 10</Name>
-		<Address NearstAirport="Sky Harbor">
+		<Phone>100-000-0000</Phone>
+		<Address>
 			<Number>100</Number>
 			<Street>10th St</Street>
 			<City>Tempe</City>
