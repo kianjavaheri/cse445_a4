@@ -7,8 +7,8 @@
 				<xs:element name="Hotel" maxOccurs="unbounded" minOccurs="1">
 					<xs:complexType>
 						<xs:sequence>
-							<xs:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
 							<xs:element name="Name" type="xs:string"/>
+							<xs:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
 							<xs:element name="Address">
 								<xs:complexType>
 									<xs:sequence>
@@ -18,11 +18,10 @@
 										<xs:element name="State" type="xs:string"/>
 										<xs:element name="Zip" type="xs:string"/>
 									</xs:sequence>
+									<xs:attribute name="NearestAirport" use="required" type="xs:string"/>
 								</xs:complexType>
 							</xs:element>
 						</xs:sequence>
-						<xs:attribute name="HotelID" use="required" type="xs:int"/>
-						<xs:attribute name="NearestAirport" use="required" type="xs:string"/>
 						<xs:attribute name="Rating" use="optional" type="xs:decimal"/>
 					</xs:complexType>
 				</xs:element>
