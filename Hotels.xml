@@ -11,12 +11,6 @@
 			<State>AZ</State>
 			<Zip>85281</Zip>
 		</Address>
-		<Rooms>
-			<Room RoomID="101">
-				<Type>Single</Type>
-				<Price>99.99</Price>
-			</Room>
-		</Rooms>
 	</Hotel>
 
 	<!-- Hotel 2 -->
@@ -30,12 +24,6 @@
 			<State>AZ</State>
 			<Zip>85281</Zip>
 		</Address>
-		<Rooms>
-			<Room RoomID="202">
-				<Type>Single</Type>
-				<Price>120.00</Price>
-			</Room>
-		</Rooms>
 	</Hotel>
 
 	<!-- Hotel 3 -->
@@ -49,12 +37,6 @@
 			<State>AZ</State>
 			<Zip>85281</Zip>
 		</Address>
-		<Rooms>
-			<Room RoomID="303">
-				<Type>Single</Type>
-				<Price>89.99</Price>
-			</Room>
-		</Rooms>
 	</Hotel>
 
 	<!-- Hotel 4 -->
@@ -68,12 +50,6 @@
 			<State>AZ</State>
 			<Zip>85281</Zip>
 		</Address>
-		<Rooms>
-			<Room RoomID="404">
-				<Type>Single</Type>
-				<Price>109.50</Price>
-			</Room>
-		</Rooms>
 	</Hotel>
 
 	<!-- Hotel 5 -->
@@ -87,12 +63,6 @@
 			<State>AZ</State>
 			<Zip>85281</Zip>
 		</Address>
-		<Rooms>
-			<Room RoomID="505">
-				<Type>Single</Type>
-				<Price>99.00</Price>
-			</Room>
-		</Rooms>
 	</Hotel>
 
 	<!-- Hotel 6 -->
@@ -106,12 +76,6 @@
 			<State>AZ</State>
 			<Zip>85281</Zip>
 		</Address>
-		<Rooms>
-			<Room RoomID="606">
-				<Type>Single</Type>
-				<Price>110.00</Price>
-			</Room>
-		</Rooms>
 	</Hotel>
 
 	<!-- Hotel 7 -->
@@ -125,12 +89,6 @@
 			<State>AZ</State>
 			<Zip>85281</Zip>
 		</Address>
-		<Rooms>
-			<Room RoomID="707">
-				<Type>Single</Type>
-				<Price>115.00</Price>
-			</Room>
-		</Rooms>
 	</Hotel>
 
 	<!-- Hotel 8 -->
@@ -144,12 +102,6 @@
 			<State>AZ</State>
 			<Zip>85281</Zip>
 		</Address>
-		<Rooms>
-			<Room RoomID="808">
-				<Type>Single</Type>
-				<Price>129.99</Price>
-			</Room>
-		</Rooms>
 	</Hotel>
 
 	<!-- Hotel 9 -->
@@ -163,12 +115,6 @@
 			<State>AZ</State>
 			<Zip>85281</Zip>
 		</Address>
-		<Rooms>
-			<Room RoomID="909">
-				<Type>Single</Type>
-				<Price>105.00</Price>
-			</Room>
-		</Rooms>
 	</Hotel>
 
 	<!-- Hotel 10 -->
@@ -182,11 +128,5 @@
 			<State>AZ</State>
 			<Zip>85281</Zip>
 		</Address>
-		<Rooms>
-			<Room RoomID="1000">
-				<Type>Single</Type>
-				<Price>99.50</Price>
-			</Room>
-		</Rooms>
 	</Hotel>
 </Hotels>

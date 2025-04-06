@@ -20,21 +20,6 @@
 									</xs:sequence>
 								</xs:complexType>
 							</xs:element>
-							<xs:element name="Rooms" minOccurs="0">
-								<xs:complexType>
-									<xs:sequence>
-										<xs:element name="Room" maxOccurs="unbounded" minOccurs="0">
-											<xs:complexType>
-												<xs:sequence>
-													<xs:element name="Type" type="xs:string"/>
-													<xs:element name="Price" type="xs:decimal"/>
-												</xs:sequence>
-												<xs:attribute name="RoomID" use="required" type="xs:int"/>
-											</xs:complexType>
-										</xs:element>
-									</xs:sequence>
-								</xs:complexType>
-							</xs:element>
 						</xs:sequence>
 						<xs:attribute name="HotelID" use="required" type="xs:int"/>
 						<xs:attribute name="NearestAirport" use="required" type="xs:string"/>

@@ -14,12 +14,6 @@
 			<Zip>85281</Zip>
 		</Address>
 		<Phone>111-111-1111</Phone>
-		<Rooms>
-			<Room RoomID="101">
-				<Type>Single</Type>
-				<Price>99.99</Price>
-			</Room>
-		</Rooms>
 	</Hotel>
 
 	<!-- Hotel 2 -->
@@ -33,12 +27,6 @@
 			<State>AZ</State>
 			<Zip>85281</Zip>
 		</Address>
-		<Rooms>
-			<Room RoomID="202">
-				<Type>Single</Type>
-				<Price>120.00</Price>
-			</Room>
-		</Rooms>
 	</Hotel>
 
 	<!-- Hotel 3 -->
@@ -53,12 +41,6 @@
 			<Zip>85281</Zip>
 			<!-- Missing </Address> tag below! -->
 			<Phone>333-333-3333</Phone>
-			<Rooms>
-				<Room RoomID="303">
-					<Type>Single</Type>
-					<Price>89.99</Price>
-				</Room>
-			</Rooms>
 		</Hotel>
 
 	<!-- Hotel 4 -->
@@ -74,12 +56,6 @@
 			<Zip>85281</Zip>
 		</Address>
 		<Phone>444-444-4444</Phone>
-		<Rooms>
-			<Room RoomID="404">
-				<Type>Single</Type>
-				<Price>109.50</Price>
-			</Room>
-		</Rooms>
 	</Hotel>
 
 	<!-- Hotel 5 -->
@@ -93,12 +69,6 @@
 			<Zip>85281</Zip>
 		</Address>
 		<Phone>555-555-5555</Phone>
-		<Rooms>
-			<Room RoomID="505">
-				<Type>Single</Type>
-				<Price>99.00</Price>
-			</Room>
-		</Rooms>
 	</Hotel>
 
 	<!-- Hotel 6 -->
@@ -112,12 +82,6 @@
 			<Zip>85281</Zip>
 		</Address>
 		<Phone>666-666-6666</Phone>
-		<Rooms>
-			<Room RoomID="606">
-				<Type>Single</Type>
-				<Price>110.00</Price>
-			</Room>
-		</Rooms>
 	</Hotel>
 
 	<!-- Hotel 7 -->
@@ -131,12 +95,6 @@
 			<Zip>85281</Zip>
 		</Address>
 		<Phone>777-777-7777</Phone>
-		<Rooms>
-			<Room RoomID="707">
-				<Type>Single</Type>
-				<Price>115.00</Price>
-			</Room>
-		</Rooms>
 	</Hotel>
 
 	<!-- Hotel 8 -->
@@ -150,12 +108,6 @@
 			<Zip>85281</Zip>
 		</Address>
 		<Phone>888-888-8888</Phone>
-		<Rooms>
-			<Room RoomID="808">
-				<Type>Single</Type>
-				<Price>129.99</Price>
-			</Room>
-		</Rooms>
 	</Hotel>
 
 	<!-- Hotel 9 -->
@@ -169,12 +121,6 @@
 			<Zip>85281</Zip>
 		</Address>
 		<Phone>999-999-9999</Phone>
-		<Rooms>
-			<Room RoomID="909">
-				<Type>Single</Type>
-				<Price>105.00</Price>
-			</Room>
-		</Rooms>
 	</Hotel>
 
 	<!-- Hotel 10 -->
@@ -188,12 +134,6 @@
 			<Zip>85281</Zip>
 		</Address>
 		<Phone>100-000-0000</Phone>
-		<Rooms>
-			<Room RoomID="1000">
-				<Type>Single</Type>
-				<Price>99.50</Price>
-			</Room>
-		</Rooms>
 	</Hotel>
 
 </Hotel>
