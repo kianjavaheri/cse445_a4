@@ -18,7 +18,7 @@
 
 	<!-- Hotel 2 -->
 	<!-- Error 3: <Phone> is missing -->
-	<Hotel NearstAirport="Sky Harbor">
+	<Hotel>
 		<Name>Hotel 2</Name>
 		<Address NearstAirport="Sky Harbor">
 			<Number>22</Number>
@@ -31,7 +31,7 @@
 
 	<!-- Hotel 3 -->
 	<!-- Error 4: <Address> is not closed -->
-	<Hotel NearstAirport="Sky Harbor" Rating="3.9">
+	<Hotel Rating="3.9">
 		<Name>Hotel 3</Name>
 		<Phone>333-333-3333</Phone>
 		<Address NearstAirport="Sky Harbor">
@@ -40,12 +40,11 @@
 			<City>Tempe</City>
 			<State>AZ</State>
 			<Zip>85281</Zip>
-			<!-- Missing </Address> tag below! -->
 		</Hotel>
 
 	<!-- Hotel 4 -->
 	<!-- Error 5: Two <Name> elements instead of one -->
-	<Hotel NearstAirport="Sky Harbor">
+	<Hotel>
 		<Name>Hotel 4</Name>
 		<Name>Another Name for Hotel 4</Name>
 		<Phone>444-444-4444</Phone>
@@ -59,7 +58,7 @@
 	</Hotel>
 
 	<!-- Hotel 5 -->
-	<Hotel NearstAirport="Sky Harbor" Rating="4.1">
+	<Hotel Rating="4.1">
 		<Name>Hotel 5</Name>
 		<Phone>555-555-5555</Phone>
 		<Address NearstAirport="Sky Harbor">
@@ -72,7 +71,7 @@
 	</Hotel>
 
 	<!-- Hotel 6 -->
-	<Hotel NearstAirport="Sky Harbor">
+	<Hotel>
 		<Name>Hotel 6</Name>
 		<Phone>666-666-6666</Phone>
 		<Address NearstAirport="Sky Harbor">
@@ -85,7 +84,7 @@
 	</Hotel>
 
 	<!-- Hotel 7 -->
-	<Hotel NearstAirport="Sky Harbor" Rating="4.3">
+	<Hotel Rating="4.3">
 		<Name>Hotel 7</Name>
 		<Phone>777-777-7777</Phone>
 		<Address NearstAirport="Sky Harbor">
@@ -98,7 +97,7 @@
 	</Hotel>
 
 	<!-- Hotel 8 -->
-	<Hotel NearstAirport="Sky Harbor">
+	<Hotel>
 		<Name>Hotel 8</Name>
 		<Phone>888-888-8888</Phone>
 		<Address NearstAirport="Sky Harbor">
@@ -111,7 +110,7 @@
 	</Hotel>
 
 	<!-- Hotel 9 -->
-	<Hotel NearstAirport="Sky Harbor" Rating="3.8">
+	<Hotel Rating="3.8">
 		<Name>Hotel 9</Name>
 		<Phone>999-999-9999</Phone>
 		<Address NearstAirport="Sky Harbor">
@@ -124,7 +123,7 @@
 	</Hotel>
 
 	<!-- Hotel 10 -->
-	<Hotel NearstAirport="Sky Harbor" Rating="4.4">
+	<Hotel Rating="4.4">
 		<Name>Hotel 10</Name>
 		<Phone>100-000-0000</Phone>
 		<Address NearstAirport="Sky Harbor">
