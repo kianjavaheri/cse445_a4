@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Hotels>
+	<Hotel HotelID="1">
+		<Name>BestStay Hotel</Name>
+		<City>Phoenix</City>
+		<Rooms>
+			<Room RoomID="101">
+				<Type>Single</Type>
+				<Price>99.99</Price>
+			</Room>
+			<Room RoomID="102">
+				<Type>Double</Type>
+				<Price>149.50</Price>
+			</Room>
+		</Rooms>
+	</Hotel>
+	<Hotel HotelID="2">
+		<Name>Sunrise Inn</Name>
+		<City>Tempe</City>
+		<Rooms>
+			<Room RoomID="201">
+				<Type>Suite</Type>
+				<Price>199.00</Price>
+			</Room>
+		</Rooms>
+	</Hotel>
+</Hotels>

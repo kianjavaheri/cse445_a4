@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Hotels>
+	<!-- This Hotel element is missing the required HotelID attribute -->
+	<Hotel>
+		<Name>CozyStay Hotel</Name>
+		<City>Phoenix</City>
+		<Rooms>
+			<Room RoomID="101">
+				<Type>Single</Type>
+				<!-- Invalid price format: "One Hundred" is not decimal -->
+				<Price>One Hundred</Price>
+			</Room>
+		</Rooms>
+	</Hotel>
+</Hotels>
