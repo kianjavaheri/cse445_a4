@@ -1,15 +1,199 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Hotels>
-	<!-- This Hotel element is missing the required HotelID attribute -->
-	<Hotel>
-		<Name>CozyStay Hotel</Name>
-		<City>Phoenix</City>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Error 1: Root element replaces <Hotels> with <Hotel> -->
+<Hotel>
+
+	<!-- Hotel 1 -->
+	<!-- Error 2: Missing nearest airport -->
+	<Hotel HotelID="1" Rating="4.2">
+		<Name>Hotel 1</Name>
+		<Address>
+			<Number>11</Number>
+			<Street>1st St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+		<Phone>111-111-1111</Phone>
 		<Rooms>
 			<Room RoomID="101">
 				<Type>Single</Type>
-				<!-- Invalid price format: "One Hundred" is not decimal -->
-				<Price>One Hundred</Price>
+				<Price>99.99</Price>
 			</Room>
 		</Rooms>
 	</Hotel>
-</Hotels>
+
+	<!-- Hotel 2 -->
+	<!-- Error 3: <Phone> is missing -->
+	<Hotel HotelID="2" NearestAirport="Sky Harbor">
+		<Name>Hotel 2</Name>
+		<Address>
+			<Number>22</Number>
+			<Street>2nd St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+		<Rooms>
+			<Room RoomID="202">
+				<Type>Single</Type>
+				<Price>120.00</Price>
+			</Room>
+		</Rooms>
+	</Hotel>
+
+	<!-- Hotel 3 -->
+	<!-- Error 4: <Address> is not closed -->
+	<Hotel HotelID="3" NearestAirport="Sky Harbor" Rating="3.9">
+		<Name>Hotel 3</Name>
+		<Address>
+			<Number>33</Number>
+			<Street>3rd St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+			<!-- Missing </Address> tag below! -->
+			<Phone>333-333-3333</Phone>
+			<Rooms>
+				<Room RoomID="303">
+					<Type>Single</Type>
+					<Price>89.99</Price>
+				</Room>
+			</Rooms>
+		</Hotel>
+
+	<!-- Hotel 4 -->
+	<!-- Error 5: Two <Name> elements instead of one -->
+	<Hotel HotelID="4" NearestAirport="Sky Harbor">
+		<Name>Hotel 4</Name>
+		<Name>Another Name for Hotel 4</Name>
+		<Address>
+			<Number>44</Number>
+			<Street>4th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+		<Phone>444-444-4444</Phone>
+		<Rooms>
+			<Room RoomID="404">
+				<Type>Single</Type>
+				<Price>109.50</Price>
+			</Room>
+		</Rooms>
+	</Hotel>
+
+	<!-- Hotel 5 -->
+	<Hotel HotelID="5" NearestAirport="Sky Harbor" Rating="4.1">
+		<Name>Hotel 5</Name>
+		<Address>
+			<Number>55</Number>
+			<Street>5th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+		<Phone>555-555-5555</Phone>
+		<Rooms>
+			<Room RoomID="505">
+				<Type>Single</Type>
+				<Price>99.00</Price>
+			</Room>
+		</Rooms>
+	</Hotel>
+
+	<!-- Hotel 6 -->
+	<Hotel HotelID="6" NearestAirport="Sky Harbor">
+		<Name>Hotel 6</Name>
+		<Address>
+			<Number>66</Number>
+			<Street>6th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+		<Phone>666-666-6666</Phone>
+		<Rooms>
+			<Room RoomID="606">
+				<Type>Single</Type>
+				<Price>110.00</Price>
+			</Room>
+		</Rooms>
+	</Hotel>
+
+	<!-- Hotel 7 -->
+	<Hotel HotelID="7" NearestAirport="Sky Harbor" Rating="4.3">
+		<Name>Hotel 7</Name>
+		<Address>
+			<Number>77</Number>
+			<Street>7th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+		<Phone>777-777-7777</Phone>
+		<Rooms>
+			<Room RoomID="707">
+				<Type>Single</Type>
+				<Price>115.00</Price>
+			</Room>
+		</Rooms>
+	</Hotel>
+
+	<!-- Hotel 8 -->
+	<Hotel HotelID="8" NearestAirport="Sky Harbor">
+		<Name>Hotel 8</Name>
+		<Address>
+			<Number>88</Number>
+			<Street>8th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+		<Phone>888-888-8888</Phone>
+		<Rooms>
+			<Room RoomID="808">
+				<Type>Single</Type>
+				<Price>129.99</Price>
+			</Room>
+		</Rooms>
+	</Hotel>
+
+	<!-- Hotel 9 -->
+	<Hotel HotelID="9" NearestAirport="Sky Harbor" Rating="3.8">
+		<Name>Hotel 9</Name>
+		<Address>
+			<Number>99</Number>
+			<Street>9th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+		<Phone>999-999-9999</Phone>
+		<Rooms>
+			<Room RoomID="909">
+				<Type>Single</Type>
+				<Price>105.00</Price>
+			</Room>
+		</Rooms>
+	</Hotel>
+
+	<!-- Hotel 10 -->
+	<Hotel HotelID="10" NearestAirport="Sky Harbor" Rating="4.4">
+		<Name>Hotel 10</Name>
+		<Address>
+			<Number>100</Number>
+			<Street>10th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+		<Phone>100-000-0000</Phone>
+		<Rooms>
+			<Room RoomID="1000">
+				<Type>Single</Type>
+				<Price>99.50</Price>
+			</Room>
+		</Rooms>
+	</Hotel>
+
+</Hotel>
