@@ -30,7 +30,7 @@
 			<Zip>85281</Zip>
 		</Address>
 		<Phone>222-222-2222</Phone>
-		<!-- No Rating here -->
+		<!-- No Rating here to show optional usage -->
 		<Rooms>
 			<Room RoomID="202">
 				<Type>Single</Type>
@@ -69,7 +69,7 @@
 			<Zip>85281</Zip>
 		</Address>
 		<Phone>444-444-4444</Phone>
-		<!-- No Rating here -->
+		<!-- No Rating -->
 		<Rooms>
 			<Room RoomID="404">
 				<Type>Single</Type>
@@ -108,7 +108,7 @@
 			<Zip>85281</Zip>
 		</Address>
 		<Phone>666-666-6666</Phone>
-		<!-- No Rating here -->
+		<!-- No Rating -->
 		<Rooms>
 			<Room RoomID="606">
 				<Type>Single</Type>
@@ -147,7 +147,7 @@
 			<Zip>85281</Zip>
 		</Address>
 		<Phone>888-888-8888</Phone>
-		<!-- No Rating here -->
+		<!-- No Rating -->
 		<Rooms>
 			<Room RoomID="808">
 				<Type>Single</Type>
