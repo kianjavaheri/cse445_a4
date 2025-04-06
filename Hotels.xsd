@@ -28,7 +28,7 @@
 							<!-- Multiple phone numbers allowed -->
 							<xs:element name="Phone" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
 
-							<!-- optional -->
+							<!-- Rooms (optional) -->
 							<xs:element name="Rooms" minOccurs="0">
 								<xs:complexType>
 									<xs:sequence>
@@ -46,7 +46,7 @@
 							</xs:element>
 						</xs:sequence>
 
-						<!-- Required and optional attributes on Hotel -->
+						<!-- Required and optional attributes on <Hotel> -->
 						<xs:attribute name="HotelID" use="required" type="xs:int"/>
 						<xs:attribute name="NearestAirport" use="required" type="xs:string"/>
 						<xs:attribute name="Rating" use="optional" type="xs:decimal"/>
